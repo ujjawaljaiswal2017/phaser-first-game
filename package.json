@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"http-server & xdg-open 'http://127.0.0.1:8082'"
+    "start":"http-server & $BROWSER 'http://127.0.0.1:8082'"
   },
   "author": "",
   "license": "ISC",
